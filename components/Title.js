@@ -4,12 +4,12 @@ export function Title() {
   return (
     <View>
       <Text style={styles.titulo}>Bem-vindo a Fernando de Noronha</Text>
-      <Text>Descubra o paraíso das praias intocadas e águas cristalinas.</Text>
+      <Text style={styles.subtitulo}>Descubra o paraíso das praias intocadas e águas cristalinas.</Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({
+const styles=StyleSheet.create({
    titulo: {
     fontSize: 25,
     color: '#ffffff',
@@ -17,5 +17,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     backgroundColor: '#007b00',
     padding: 20
+  },
+
+  subtitulo: {
+    margin: 10
   }
 })
