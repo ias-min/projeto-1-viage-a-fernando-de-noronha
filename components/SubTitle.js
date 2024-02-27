@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
   },
 
   subfrase: {
-    margin:10
+    marginLeft:10
   }
 })

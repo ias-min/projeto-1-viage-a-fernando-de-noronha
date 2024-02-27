@@ -20,6 +20,6 @@ const styles=StyleSheet.create({
   },
 
   subtitulo: {
-    margin: 10
+    marginLeft: 10
   }
 })
